@@ -1,42 +1,72 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .header {
     background-color: #FFFFFF;
+    display:flex;
+    width: 1440px;
+    height: 72px;
+    position:absolute;
+    left: 0px;
+    top: 0px;
+}
+.header-navigation {
+    display: flex;
+    align-items: center;
 }
 .header-logoa {
-    width: 44px;
-    height: 22px;
     text-decoration: none;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    display:flex;
+    margin: 24 1240 24 156;
+    width: 44px;
+    height: 24px;
 }
 .header-logo {
-    width: 71px;
-    height: 22px;
     text-decoration: none;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 24px;
 }
 .header-list {
     list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 261px;
+    height: 24px;
+    left: 347px;
+    top:24px;
+    margin:0px;
 }
 .header-link {
-    left: 0px;
-    top: 0px;
     text-decoration: none;
     font-family: 'Roboto';
     font-style: normal;
@@ -52,6 +82,9 @@
     text-decoration: underline #404BBF;
     border-radius: 2px;
 }
+.header-adress {
+    list-style-type:none;
+}
 .header-mail {
     text-decoration: none;
     font-family: 'Roboto';
@@ -61,6 +94,12 @@
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    left: 940px;
+    top: 24px;
 }
 .header-tel {
     text-decoration: none;
@@ -71,10 +110,23 @@
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 1133px;
+    top: 24px;
+
 }
 
 .hero {
     background-color: #2E2F42;
+    display:flex;
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
 }
 .hero-title {
     font-family: 'Roboto';
@@ -85,6 +137,14 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    display:flex;
+    position: absolute;
+    width: 494px;
+    height: 120px;
+    left: 473px;
+    top: 188px;
+    margin:0;
+
 }
 .hero-button {
     width: 169px;
@@ -101,6 +161,18 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+    margin:0;
 }
 .hero-button:hover,
 .hero-button:focus {
