@@ -261,9 +261,9 @@
 .third {
     background-color: #FFFFFF;
     position: absolute;
-    width: 1128px;
+    width: 1440px;
     height: 412px;
-    left: 156px;
+    left: 0px;
     top: 1016px;
     right:156px;
 
@@ -299,14 +299,17 @@
     flex-direction:row;
     gap:24px;
     position: absolute;
+    width:1128px;
     left: 156px;
-    right:156px;
     top: 72px;
+    margin:0px;
+    padding:0px;
     
 }
 .third-item {
     display: flex;
     flex-direction: column;
+    justify-items:flex-start;
     align-items: flex-start;
     padding: 0px;
     width: 360px;
@@ -340,10 +343,41 @@
 /* NAVY BLUE */
 
     color: #2E2F42;
+    display:flex;
+    position: absolute;
+    width: 162px;
+    height: 40px;
+    left: 639px;
+    bottom:572px;
 
 }
 .team-list {
     list-style-type: none;
+    display:flex;
+    flex-direction:row;
+    position:absolute;
+    top:232px;
+    bottom:120px;
+    gap: 24px;
+    left:156px;
+    padding:0px;
+    margin:0px;
+}
+.team-item {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+    left:156px;
+    top:1232px;
+    width: 264px;
+    height: 380px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    
 }
 .team-item-link {
     text-decoration:none;
@@ -393,36 +427,69 @@
 }
 .footer {
     background-color: #2E2F42;
+    display:flex;
+    position:absolute;
+    width: 1440px;
+    height: 310px;
+    left: 0px;
+    top: 2280px;
+}
+.footer-info {
+    position: absolute;
+    width: 264px;
+    height: 110px;
+    left: 0px;
+    top: 0px;
 }
 .footer-logo {
-    width: 71px;
-    height: 22px;
     text-decoration: none;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 115px;
+    height: 22px;
+    left: 156px;
+    top:100px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 .footer-logoa {
-    width: 44px;
-    height: 22px;
     text-decoration: none;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
+    /* IRIS */
+    
     color: #4D5AE5;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 .footer-description {
     font-family: 'Roboto';
@@ -436,6 +503,12 @@
 /* CORNFLOWER */
 
     color: #E7E9FC;
+    display:flex;
+    position: absolute;
+    width: 264px;
+    height: 72px;
+    left: 156px;
+    top: 138px;
 }
 .portfolio {
     background-color: #FFFFFF;
