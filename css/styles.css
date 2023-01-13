@@ -183,6 +183,11 @@
 }
 .secondary {
     background-color: #FFFFFF;
+    display:flex;
+    position:absolute;
+    width:1440px;
+    height:344px;
+    top:672px;
 }
 .secondary-title {
     font-family: 'Roboto';
@@ -199,9 +204,25 @@
 /* NAVY BLUE */
 
     color: #2E2F42;
+    display:none;
 }
 .secondary-list {
     list-style-type:none;
+    display:flex;
+    flex-direction: row;
+    gap:24px;
+    position: absolute;
+    width: 1128px;
+    height: 104px;
+    left: 156px;
+    top: 120px;
+}
+.secondary-item {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
 }
 .secondary-item-title {
     font-family: 'Roboto';
@@ -216,6 +237,7 @@
 /* NAVY BLUE */
 
     color: #2E2F42;
+    margin:0px;
 }
 .secondary-item-description {
     width: 264px;
@@ -234,6 +256,61 @@
 /* SLATE */
 
     color: #434455;
+    margin:0px;
+}
+.third {
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 1128px;
+    height: 532px;
+    left: 156px;
+    top: 1016px;
+    right:156px;
+
+}
+.third-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+/* identical to box height, or 111% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+/* NAVY BLUE */
+
+    color: #2E2F42;
+    display:flex;
+    position: absolute;
+    justify-content:center;
+    width: 323px;
+    height: 40px;
+    margin:0px;
+    left: 559px;
+    top:0px;
+}
+.third-list {
+    list-style-type:none;
+    display:flex;
+    flex-direction:row;
+    gap:24px;
+    position: absolute;
+    width: 360px;
+    height: 300px;
+    left: 156px;
+    top: 72px;
+    
+}
+.third-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    top:72px;
+    
 }
 .footer {
     background-color: #2E2F42;
