@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 .container {
-    width:1128px;
+    width:1158px;
     margin: 0 auto;
-    padding: 0 15;
+    padding: 0 15px;
 }
 h1, 
 h2, 
@@ -21,18 +21,17 @@ ul {
     margin:0;
     padding-left: 0;
 }
+.list {
+    list-style-type:none;
+}
+img {
+    display:block;
+}
+
 .header {
     background-color: #FFFFFF;
-    display:flex;
-    width: 1440px;
-    height: 72px;
-    position:absolute;
-    left: 0px;
-    top: 0px;
 }
 .header-navigation {
-    display: flex;
-    align-items: center;
 }
 .header-logoa {
     text-decoration: none;
@@ -44,10 +43,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    display:flex;
-    margin: 24 1240 24 156;
-    width: 44px;
-    height: 24px;
+
 }
 .header-logo {
     text-decoration: none;
@@ -59,29 +55,9 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    position: absolute;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
 }
 .header-list {
     list-style-type:none;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-    position: absolute;
-    width: 261px;
-    height: 24px;
-    left: 347px;
-    top:24px;
-    margin:0px;
 }
 .header-link {
     text-decoration: none;
@@ -111,12 +87,6 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
-    display: flex;
-    position: absolute;
-    width: 153px;
-    height: 24px;
-    left: 940px;
-    top: 24px;
 }
 .header-tel {
     text-decoration: none;
@@ -127,23 +97,10 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
-    display: flex;
-    position: absolute;
-    width: 151px;
-    height: 24px;
-    left: 1133px;
-    top: 24px;
-
 }
 
 .hero {
     background-color: #2E2F42;
-    display:flex;
-    position: absolute;
-    width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 72px;
 }
 .hero-title {
     font-family: 'Roboto';
@@ -154,13 +111,6 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    display:flex;
-    position: absolute;
-    width: 494px;
-    height: 120px;
-    left: 473px;
-    top: 188px;
-    margin:0;
 
 }
 .hero-button {
@@ -178,18 +128,6 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
-    margin:0;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -200,11 +138,6 @@ ul {
 }
 .secondary {
     background-color: #FFFFFF;
-    display:flex;
-    position:absolute;
-    width:1440px;
-    height:344px;
-    top:672px;
 }
 .secondary-title {
     font-family: 'Roboto';
@@ -225,21 +158,8 @@ ul {
 }
 .secondary-list {
     list-style-type:none;
-    display:flex;
-    flex-direction: row;
-    gap:24px;
-    position: absolute;
-    width: 1128px;
-    height: 104px;
-    left: 156px;
-    top: 120px;
 }
 .secondary-item {
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
 }
 .secondary-item-title {
     font-family: 'Roboto';
@@ -277,12 +197,6 @@ ul {
 }
 .third {
     background-color: #FFFFFF;
-    position: absolute;
-    width: 1440px;
-    height: 412px;
-    left: 0px;
-    top: 1016px;
-    right:156px;
 
 }
 .third-title {
@@ -300,47 +214,16 @@ ul {
 /* NAVY BLUE */
 
     color: #2E2F42;
-    display:flex;
-    position: absolute;
-    justify-content:center;
-    width: 323px;
-    height: 40px;
-    margin:0px;
-    left: 559px;
-    right:558px;
-    top:0px;
 }
 .third-list {
     list-style-type:none;
-    display:flex;
-    flex-direction:row;
-    gap:24px;
-    position: absolute;
-    width:1128px;
-    left: 156px;
-    top: 72px;
-    margin:0px;
-    padding:0px;
     
 }
 .third-item {
-    display: flex;
-    flex-direction: column;
-    justify-items:flex-start;
-    align-items: flex-start;
-    padding: 0px;
-    width: 360px;
-    height: 300px;
-    top:72px;
     
 }
 .team {
     background-color: #F4F4FD;
-    position: absolute;
-    width: 1440px;
-    height: 732px;
-    left: 0px;
-    top: 1548px;
 
 }
 .team-title {
@@ -360,41 +243,12 @@ ul {
 /* NAVY BLUE */
 
     color: #2E2F42;
-    display:flex;
-    position: absolute;
-    width: 162px;
-    height: 40px;
-    left: 639px;
-    bottom:572px;
-    margin:0px;
 
 }
 .team-list {
     list-style-type: none;
-    display:flex;
-    flex-direction:row;
-    position:absolute;
-    top:232px;
-    bottom:120px;
-    gap: 24px;
-    left:156px;
-    padding:0px;
-    margin:0px;
 }
 .team-item {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-    left:156px;
-    top:1232px;
-    width: 264px;
-    height: 380px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
     
 }
 .team-item-link {
@@ -445,19 +299,6 @@ ul {
 }
 .footer {
     background-color: #2E2F42;
-    display:flex;
-    position:absolute;
-    width: 1440px;
-    height: 310px;
-    left: 0px;
-    top: 2280px;
-}
-.footer-info {
-    position: absolute;
-    width: 264px;
-    height: 110px;
-    left: 0px;
-    top: 0px;
 }
 .footer-logo {
     text-decoration: none;
@@ -469,19 +310,6 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    
-    position: absolute;
-    width: 115px;
-    height: 22px;
-    left: 156px;
-    top:100px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 .footer-logoa {
     text-decoration: none;
@@ -493,8 +321,6 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
@@ -504,10 +330,6 @@ ul {
     
     
     /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 .footer-description {
     font-family: 'Roboto';
@@ -521,37 +343,14 @@ ul {
 /* CORNFLOWER */
 
     color: #E7E9FC;
-    display:flex;
-    position: absolute;
-    width: 264px;
-    height: 72px;
-    left: 156px;
-    top: 138px;
 }
 .portfolio {
     background-color: #FFFFFF;
 }
 .portfolio-list {
     list-style-type: none;
-    display:flex;
-    position:absolute;
-    flex-direction:row;
-    left:427px;
-    right:427px;
-    top:168px;
-    gap:24px;
-    width: 586px;
-    height: 48px;
-    padding:0px;
-    margin:0px;
 }
 .portolio-item {
-    display:flex;
-    flex-direction:row;
-    position:absolute;
-    align-items:flex-start;
-    height:48px;
-    flex-grow: initial;
 }
 .portfolio-button {
     background: #F4F4FD;
@@ -566,14 +365,6 @@ ul {
     font-size: 16px;
     line-height: 24px;
     color: #4D5AE5;
-    display:flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    height:48px;
-    padding: 12px 24px;
-    width:max-content;
-    flex-grow:0;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -583,27 +374,8 @@ ul {
 }
 .gallery-list {
     list-style-type:none;
-    position:absolute;
-    display:flex;
-    column-gap:24px;
-    width: 1128px;
-    height: 1356px;
-    left: 156px;
-    top: 288px;
-    padding:0px;
-    margin:0px;
-    flex-wrap:wrap;
 }
 .gallery-item {
-    display:flex;
-    flex-direction:row;
-    width:360px;
-    height:420px;
-    border: 1px solid #E7E9FC;
-    justify-content:center;
-    align-items:flex-start;
-    padding:0px 16px;
-    gap:8px;
 }
 .gallery-item-link {
     text-decoration:none;
