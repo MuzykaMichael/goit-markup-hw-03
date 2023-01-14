@@ -246,15 +246,13 @@ img {
 /* NAVY BLUE */
 
     color: #2E2F42;
-    padding-top:120px;
-    margin-bottom:72px;
 }
 .team-list {
     list-style-type: none;
-    margin-bottom:120px;
 }
-.team-item:not(:nth-last-child) {
-    padding: 0 0 32px;
+.team-item-text {
+    padding-top:32px;
+    padding-bottom:32px;
 }
 .team-item-link {
     text-decoration:none;
@@ -275,7 +273,7 @@ img {
 /* NAVY BLUE */
 
     color: #2E2F42;
-    margin:32px 0 8px;
+    margin-bottom:8px;
 }
 .team-item-title:hover,
 .team-item-title:focus {
@@ -387,6 +385,7 @@ img {
     margin-bottom: 120px;
 }
 .gallery-item {
+    
 }
 .gallery-item-link {
     text-decoration:none;
@@ -405,9 +404,11 @@ img {
 /* NAVY BLUE */
 
     color: #2E2F42;
+    margin-top:32px;
+    margin-bottom:8px;
 
 }
-.gallery-item-description {
+.gallery-item-description:not(:nth-last-child) {
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -417,4 +418,5 @@ img {
     letter-spacing: 0.02em;
 /* SLATE */
     color: #434455;
+    margin-bottom:32px;
 }
