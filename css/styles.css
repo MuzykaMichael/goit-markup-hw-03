@@ -382,8 +382,12 @@ img {
     list-style-type: none;
     margin-top: 96px;
     margin-bottom:72px;
+    display:flex;
+    gap:24px;
+    justify-content: center;
 }
 .portolio-item {
+    
 }
 .portfolio-button {
     background: #F4F4FD;
@@ -398,19 +402,33 @@ img {
     font-size: 16px;
     line-height: 24px;
     color: #4D5AE5;
+    padding: 12px 24px;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
     background-color: #404BBF;
     color: #FFFFFF;
     cursor:pointer;
+    
 }
 .gallery-list {
     list-style-type:none;
     margin-bottom: 120px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    column-gap:24px;
+    row-gap:48px;
 }
 .gallery-item {
-    
+    border: 1px solid #E7E9FC;
+}
+
+.gallery-item-text {
+    display:flex;
+    flex-direction:column;
+    padding:32px 0;
+    gap:8px;
 }
 .gallery-item-link {
     text-decoration:none;
@@ -429,11 +447,9 @@ img {
 /* NAVY BLUE */
 
     color: #2E2F42;
-    margin-top:32px;
-    margin-bottom:8px;
-
+    padding-left:16px;
 }
-.gallery-item-description:not(:nth-last-child) {
+.gallery-item-description {
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -443,5 +459,5 @@ img {
     letter-spacing: 0.02em;
 /* SLATE */
     color: #434455;
-    margin-bottom:32px;
+    padding-left:16px;
 }
