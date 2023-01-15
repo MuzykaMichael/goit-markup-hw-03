@@ -31,6 +31,7 @@ img {
 .header>.container {
     background-color: #FFFFFF;
     display:flex;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-navigation {
@@ -420,15 +421,12 @@ img {
 }
 .gallery-list {
     list-style-type:none;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
     column-gap:24px;
     row-gap:48px;
-}
-.gallery-item {
-    border: 1px solid #E7E9FC;
 }
 
 .gallery-item-text {
@@ -436,6 +434,8 @@ img {
     flex-direction:column;
     padding:32px 0;
     gap:8px;
+    border: 1px solid #E7E9FC;
+
 }
 .gallery-item-link {
     text-decoration:none;
